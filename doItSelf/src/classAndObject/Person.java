@@ -1,0 +1,29 @@
+package classAndObject;
+
+public class Person {
+	int age;
+	boolean isMarried;
+	int numberOfChildren;
+	String name;
+	
+	Person(int age, String name, boolean isMarried, int numberOfChildren){
+		this.age=age;
+		this.name=name;
+		this.isMarried=isMarried;
+		this.numberOfChildren=numberOfChildren;
+	}
+	
+	void ShowName() {
+		System.out.println("이름 : "+name);
+	}
+	void ShowAge() {
+		System.out.println("나이 :"+age);
+	}
+	void ShowIsMarried() {
+		System.out.println("결혼 여부:"+isMarried);
+		
+	}
+	void ShowNumberOfChildern() {
+		System.out.println("자녀의 수"+numberOfChildren);
+	}
+}

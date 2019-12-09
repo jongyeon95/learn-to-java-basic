@@ -1,0 +1,12 @@
+package improveFor;
+
+public class Book {
+	private String name;
+	private String author;
+	
+	Book(String n, String a){
+		name=n;
+		author=a;
+	}
+	
+}
