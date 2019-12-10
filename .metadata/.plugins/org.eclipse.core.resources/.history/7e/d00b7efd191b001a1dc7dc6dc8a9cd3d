@@ -1,0 +1,20 @@
+package goldCoustormerProblem;
+
+public class CustomerTest {
+
+	public static void main(String[] args) {
+		VipCustomer vip1= new VipCustomer(100,"¹ÚÁ¾¿¬");
+		GoldCustomer gold1=new GoldCustomer(1000,"ÀÌ¿ø±Ô");
+		Customer sliver1=new Customer(10000,"±è¹Î¿ì");
+		
+		vip1.ShowCustomerInfo();
+		gold1.ShowCustomerInfo();
+		sliver1.ShowCustomerInfo();
+		
+		vip1.Calpay(4000);
+		gold1.Calpay(4000);
+		sliver1.Calpay(4000);
+
+	}
+
+}

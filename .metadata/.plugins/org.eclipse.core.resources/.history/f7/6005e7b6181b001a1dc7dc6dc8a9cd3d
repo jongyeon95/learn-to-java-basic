@@ -1,0 +1,28 @@
+package goldCoustormerProblem;
+
+public class Customer {
+	private int customerId;
+	private String customerName;
+	protected String Grade;
+	protected int bonusPoint;
+	protected double bonusRatio;
+	
+	public Customer(int id,String name){
+		customerId=id;
+		customerName=name;
+		Grade="Silver";
+		bonusPoint=1000;
+		bonusRatio=0.01;
+	}
+	
+	void ShowCustomerInfo() {
+		System.out.println("°í°´ ID: "+customerId+"\n °í°´¸í: "+customerName+"\n °í°´µî±Þ: "+Grade+"\n º¸À¯Æ÷ÀÎÆ®: "+bounsPoint);
+	}
+	
+	int Calpay(int pay) {
+		bonusPoint+=pay*bonusRatio;
+		return pay;
+	}
+	
+
+}

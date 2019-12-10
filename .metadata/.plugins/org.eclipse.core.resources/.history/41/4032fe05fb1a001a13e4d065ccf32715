@@ -1,0 +1,29 @@
+package customerTest;
+
+public class Customer {
+	private String name;
+	protected String grade;
+	private int customerId;
+	protected int bonusPoint;
+	protected double bounsRatio;
+	
+	Customer(){}
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public int getCustomerId() {
+		return customerId;
+	}
+
+	public void setCustomerId(int customerId) {
+		this.customerId = customerId;
+	}
+	
+
+}
