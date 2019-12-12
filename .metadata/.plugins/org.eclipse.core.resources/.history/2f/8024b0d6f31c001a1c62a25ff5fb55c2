@@ -1,0 +1,15 @@
+package implementsTest;
+
+public class QuickSort {
+	@Override
+	public void ascending(int[] a) {
+		System.out.println("HeapSort ascending");
+		
+	}
+
+	@Override
+	public void descending(int[] a) {
+		System.out.println("HeapSort ascending");
+		
+	}
+}
