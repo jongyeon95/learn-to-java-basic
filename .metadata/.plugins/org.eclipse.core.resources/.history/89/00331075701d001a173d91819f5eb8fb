@@ -14,7 +14,7 @@ public class SortTest {
 		Sort sort = null;
 		
 		if(ch == 'B' || ch == 'b'){
-			sort = new BubbleSort();
+			sort = new BubqleSort();
 		}
 		else if(ch == 'H' || ch == 'h'){
 			sort = new HeapSort();
