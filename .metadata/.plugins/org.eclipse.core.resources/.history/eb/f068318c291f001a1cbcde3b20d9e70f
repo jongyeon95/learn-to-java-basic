@@ -1,0 +1,45 @@
+package lamdaCustomer;
+
+public class Customer {
+	private int customerId;
+	private String name;
+	private int age;
+	private int cost;
+	
+	
+	public Customer(int i, String n, int a, int c ) 
+	{
+		this.customerId=i;
+		this.name=n;
+		this.age=a;
+		this.cost=c;
+	}
+	
+	
+	
+	public int getCustomerId() {
+		return customerId;
+	}
+	public void setCustomerId(int customerId) {
+		this.customerId = customerId;
+	}
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	public int getAge() {
+		return age;
+	}
+	public void setAge(int age) {
+		this.age = age;
+	}
+	public int getCost() {
+		return cost;
+	}
+	public void setCost(int cost) {
+		this.cost = cost;
+	}
+	
+}

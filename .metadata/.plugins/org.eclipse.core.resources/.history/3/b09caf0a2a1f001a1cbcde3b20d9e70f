@@ -1,0 +1,12 @@
+package lamdaCustomer;
+
+public class TravelTest {
+
+	public static void main(String[] args) {
+	Customer customerLee=new Customer("이순신",40,100);
+	Customer customerPark=new Customer("박혁거세",80,200);
+	Customer customerChoi=new Customer("영수초이",25,150);
+
+	}
+
+}
